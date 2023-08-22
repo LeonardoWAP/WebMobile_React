@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color:bisque;
+}
+
+p{
+    margin: 0;
+}
+.card{
+    gap: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 450px;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+header{ 
+    margin-top: 10px;
+    display: flex;
+    gap: 18px;
+    height: 15%;
+    width: 100%;
+    justify-content: space-around;
+
+
+}
+#person{
+    height: 40px;
+    width: 40px;
+    display: flex; 
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#name{
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+   
+}
+
+#verify{
+    width: 8%;
+    display: flex;    
+}
+#juncao{
+    align-items: center;
+    width: 300px;
+    display: flex;
+    gap: 10px;
+}
+#twitter{
+    height: 40px;
+    width: 40px; 
+    margin-top: 10px;  
+}
+#arroba{
+    margin-top: -30px;
+    margin-left: -5px;
+}
+
+/************** main *****************/
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 5px;
+    height: 80%;
+    width: 90%;
+    
+}
+#descricao{
+    width: 80%;
+
+}
+
+/********** footer ****************/
+footer{
+    display: flex;
+    align-items: center;
+    height: 30%;
+    width: 90%;
+    gap: 12px;
+}
+footer img{
+    height: 28px;
+}
+

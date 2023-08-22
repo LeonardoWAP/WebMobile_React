@@ -1,0 +1,110 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.tia{
+    display: flex;
+    flex-direction: column;
+
+    background-image: url(assets/background.png);
+    background-size: cover;
+
+    height: 410px;
+    width: 640px;
+    gap: 10%;
+}
+
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 130px;
+}
+
+header > img{ 
+    width: 350px;
+    height: 105.13px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    height: 45%;
+
+}
+
+.info > img{
+    margin-left: 2%;
+    width: 150px;
+    height: 100%;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    width: 442px;
+    height: 100%;
+    gap: 4%;
+}
+
+
+main > p{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.data, .numero_tia{
+    height: 35px;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 20%;
+}
+
+.nome, .formacao{
+    border-radius: 15px;
+    font-size: 30px;
+
+    width: 100%;
+    height: 36%;
+  
+}
+
+.nome{
+    background-color: white;
+    
+}
+
+.numero_tia{
+    width:220px;
+    background-color: white;     
+}
+
+.data{
+    width:130px;
+    background-color: white; 
+       
+    
+}
+
+.formacao{    
+    background-color: white;
+}
+
